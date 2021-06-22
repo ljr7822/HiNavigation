@@ -1,0 +1,4 @@
+rootProject.name = "HiNavigation"
+include ':app'
+include ':libnavannotation'
+include ':libcompiler'
