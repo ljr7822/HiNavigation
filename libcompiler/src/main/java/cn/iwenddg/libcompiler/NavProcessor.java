@@ -31,7 +31,7 @@ import cn.iwenddg.libnavannotation.ActivityDestination;
 import cn.iwenddg.libnavannotation.FragmentDestination;
 
 /**
- * 注解处理器
+ * 注解处理器，生成对应的json文件
  *
  * @author iwen大大怪
  * @create 2021/06/22 17:40
