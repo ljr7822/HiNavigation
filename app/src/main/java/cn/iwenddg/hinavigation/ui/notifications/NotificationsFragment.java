@@ -14,7 +14,9 @@ import androidx.lifecycle.ViewModelProvider;
 
 import cn.iwenddg.hinavigation.R;
 import cn.iwenddg.hinavigation.databinding.FragmentNotificationsBinding;
+import cn.iwenddg.libnavannotation.FragmentDestination;
 
+@FragmentDestination(pageUrl = "main/tabs/notification",asStarter = false)
 public class NotificationsFragment extends Fragment {
 
     private NotificationsViewModel notificationsViewModel;

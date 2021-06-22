@@ -14,7 +14,9 @@ import androidx.lifecycle.ViewModelProvider;
 
 import cn.iwenddg.hinavigation.R;
 import cn.iwenddg.hinavigation.databinding.FragmentHomeBinding;
+import cn.iwenddg.libnavannotation.FragmentDestination;
 
+@FragmentDestination(pageUrl = "main/tabs/home",asStarter = true)
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
